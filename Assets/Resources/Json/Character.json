@@ -1,0 +1,38 @@
+{
+	character:[
+		{
+			name:"warrior",
+			hp:100,
+			mp:10,
+			attack:1,
+			attackup:1,
+			magic:0,
+			magicup:1
+			defence:10,
+			defenceup:1
+			speed:1
+			speedup:1
+			equipment:[
+				["helmet1", "armor1", "sword1"],
+				["helmet", "armor2", "sword2"],
+				]
+		},
+		{
+			name:"magician",
+			hp:100,
+			mp:10,
+			attack:1,
+			attackup:1,
+			magic:0,
+			magicup:1
+			defence:10,
+			defenceup:1
+			speed:1
+			speedup:1
+			equipment:[
+				["helmet1", "armor1", "sword1"],
+				["helmet", "armor2", "sword2"],
+				]
+		},
+	]
+}
