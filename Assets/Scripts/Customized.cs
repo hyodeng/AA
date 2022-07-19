@@ -48,8 +48,10 @@ public class Customized : MonoBehaviour
     public Sprite MakeSprite(string filePath)
     {
         byte[] pngBytes = System.IO.File.ReadAllBytes(filePath);
-        Texture2D tex = new(2, 2);
-        tex.filterMode = FilterMode.Point;
+        Texture2D tex = new(2, 2)
+        {
+            filterMode = FilterMode.Point
+        };
         tex.LoadImage(pngBytes);
 
         Sprite fromTex = Sprite.Create(tex, new Rect(0f, 0f, tex.width, tex.height), new Vector2(0.5f, 0f), 100);
