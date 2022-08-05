@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
-using UnityEngine.Pool;
 
 namespace UnityEngine.UI
 {
-    [AddComponentMenu("UI/Rect Mask 2D", 14)]
+    [AddComponentMenu("UI/Rect Mask 2D", 13)]
     [ExecuteAlways]
     [DisallowMultipleComponent]
     [RequireComponent(typeof(RectTransform))]
@@ -266,8 +265,8 @@ namespace UnityEngine.UI
             {
                 foreach (MaskableGraphic maskableTarget in m_MaskableTargets)
                 {
-                    //Case 1170399 - hasMoved is not a valid check when animating on pivot of the object
-                    maskableTarget.Cull(clipRect, validRect);
+                    if (maskableTarget.canvasRenderer.hasMoved)
+                        maskableTarget.Cull(clipRect, validRect);
                 }
             }
 
