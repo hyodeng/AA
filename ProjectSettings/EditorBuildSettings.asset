@@ -5,13 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/CharacterCustomize.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Start_Scene.unity
+    guid: ecb731bbe467ef74a94b6d221f332d04
   - enabled: 1
     path: Assets/Scenes/CharacterSelect.unity
     guid: ffb8eeb0ea1a5ad43a66e1acbf2d86a4
   - enabled: 1
     path: Assets/Scenes/CharacterWeapon.unity
     guid: 57aa1f64a604e5c49b197eded93a628e
+  - enabled: 1
+    path: Assets/Scenes/Boss_Scene.unity
+    guid: eebc07eb82458884f9a83e7229265c57
+  - enabled: 1
+    path: Assets/Scenes/CharacterCustomize.unity
+    guid: 1c9e2f5235469c54d830ab95dde74441
+  - enabled: 1
+    path: Assets/Scenes/Desert_Scene.unity
+    guid: 5d36b2e18fb10d74b884579ffee8cf25
+  - enabled: 1
+    path: Assets/Scenes/Grass_Scene.unity
+    guid: 5f2037fc9f2ec8f48a6dc4affd892755
+  - enabled: 1
+    path: Assets/Scenes/Repair_Scene.unity
+    guid: 34eedb23061df0b47a8c533e39927bcc
+  - enabled: 1
+    path: Assets/Scenes/Stage_Scene.unity
+    guid: 05728c5061da24242a2e3144f2343a3c
   m_configObjects: {}
