@@ -1644,7 +1644,7 @@ RectTransform:
   m_Children:
   - {fileID: 609617157}
   m_Father: {fileID: 1132801583}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1975,10 +1975,10 @@ RectTransform:
   - {fileID: 2066834785}
   - {fileID: 142183546}
   - {fileID: 56282796}
-  - {fileID: 70400661}
   - {fileID: 3113710331768427566}
-  - {fileID: 1362092267}
+  - {fileID: 70400661}
   - {fileID: 1095561809}
+  - {fileID: 1362092267}
   - {fileID: 87636158}
   - {fileID: 689544403}
   - {fileID: 2057293898}
@@ -2059,30 +2059,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-      propertyPath: hpSlider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-      propertyPath: mpSlider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-      propertyPath: magicSlider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-      propertyPath: speedSlider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-      propertyPath: attackSlider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-      propertyPath: defenceSlider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 646484574680006744, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
       propertyPath: m_Name
       value: Character
@@ -2131,8 +2107,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1628160540, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
 --- !u!1 &1225315727
 GameObject:
@@ -2679,32 +2654,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493998327}
   m_CullTransparentMesh: 1
---- !u!1 &1609432205 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 646484574680006744, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
-  m_PrefabInstance: {fileID: 1183763841}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1609432209 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1628160543, guid: 1d5de5b1bbe91a14bb7230fbe8caf15a, type: 3}
   m_PrefabInstance: {fileID: 1183763841}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609432205}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5da994f0ff82e1e488a90db9cf570137, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1609432211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609432205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19c79f27497aca40a4d87f3a1935e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1619552478
@@ -3623,7 +3581,7 @@ RectTransform:
   m_Children:
   - {fileID: 2291275510060255936}
   m_Father: {fileID: 1132801583}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

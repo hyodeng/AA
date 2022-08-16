@@ -59,8 +59,7 @@ public class CharacterStat : MonoBehaviour
     TextMeshProUGUI playerName;
     TextMeshProUGUI playerExplanation;
 
-    ParticleSystem backAura;
-
+    public ParticleSystem backAura;
     private void Awake()
     {
         //Resource 폴더/Json 폴더/Character.json 파일에서 캐릭터 정보 읽어옴
@@ -70,7 +69,6 @@ public class CharacterStat : MonoBehaviour
         playerExplanation = GameObject.Find("PlayerExplanation").GetComponent<TextMeshProUGUI>();
 
     }
-
     private void Start()
     {
         //data = FindObjectOfType<CharacterData>();
@@ -91,16 +89,10 @@ public class CharacterStat : MonoBehaviour
         button_thief.onClick.AddListener(() => DataSetup(CharacterType.Thief));
         button_popstar.onClick.AddListener(() => DataSetup(CharacterType.Popstar));
         button_chef.onClick.AddListener(() => DataSetup(CharacterType.Chef));
-
-        //backAura = GameObject.Find("BackAura").GetComponent<ParticleSystem>();
-
     }
-
     //statHp     statMp     statAttack   statMagic   statDefence  statSpeed
-
     public void DataSetup(CharacterType type)
     {
-
         switch (type)
         {
             case CharacterType.Warrior:
@@ -189,5 +181,12 @@ public class CharacterStat : MonoBehaviour
                 break;
         }
     }
+    public void SelectType()
+    {
+        if(String.IsNullOrEmpty(FindObjectOfType<CharacterData>().character._name))
+        {
+            return;
+        }
 
+    }
 }
